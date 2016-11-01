@@ -1,2 +1,5 @@
 # Vim files
 *.swp
+
+# Tar balls
+*.bz2

@@ -111,7 +111,7 @@ def parseResults(results):
     
     final_results = {}
     for key in values:
-        final_results[key] = (values[key], results[key])
+        final_results[key] = (values[key], results[key] if key in results else 0)
     
     return final_results
 
